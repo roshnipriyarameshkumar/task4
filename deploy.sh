@@ -1,8 +1,6 @@
-#!/bin/bash
-    echo hi123
+echo hi123
     sh 'chmod +x build.sh'
     sh './build.sh'
-    docker login -u ar8888 -p dckr_pat_HU8f1bsQJp3j2DnCttXuuoppo7w
-    docker tag test ar8888/ar
-    docker push ar8888/ar
-    
+    docker login -u roshni178 -p Foxowlviya@21
+    docker tag test roshni178/task4
+    docker push roshni178/task4
