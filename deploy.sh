@@ -7,4 +7,4 @@ echo hi123
     kubectl create deployment task45 --image=roshni178/task4 --port=80
     kubectl expose deployment task45 --type=NodePort --port=80
    
-      
+    
