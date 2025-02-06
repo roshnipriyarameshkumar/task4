@@ -6,5 +6,5 @@ echo hi123
     docker push roshni178/task4
     kubectl create deployment task45 --image=roshni178/task4 --port=80
     kubectl expose deployment task45 --type=NodePort --port=80
-    minikube service task45
+   
       
